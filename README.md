@@ -23,19 +23,6 @@ Acest proiect implementează un sistem inteligent de irigare pentru grădinile d
 *Decizie de udare automată*
 * Funcția make_decision() determină dacă solul trebuie udat, comparând umiditatea dorită cu cea prezisă.
 
-# Utilizare
 
-1. Rularea scriptului MATLAB:
-   * Încărcați fișierul RainGarden.csv
-   * Rulați scriptul pentru a antrena modelul și a vizualiza analiza datelor
-
-2. Simularea deciziei de udare:
-   * La rularea scriptului, utilizatorul introduce datele cerute
-   * Se apelează funcția make_decision() pentru acele date (ex: decision = make_decision(umiditate_dorita, umiditate_curenta, ora, zi, luna, mdl); ), unde mdl este modelul antrenat de regresie liniară
-   * Se va afișa decizia sistemului
-  
-# Toolbox-uri necesare
-* Statistics and Machine Learning Toolbox
-* System Identification Toolbox
 
 
